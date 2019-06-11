@@ -1,0 +1,46 @@
+{
+  "name": "expensify-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mahdi",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "7.1.6",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-preset-env": "7.1.6",
+    "babel-preset-react": "7.0.0",
+    "css-loader": "2.1.1",
+    "dev-server": "^0.1.0",
+    "jest": "24.6.0",
+    "live-server": "^1.2.1",
+    "moment": "2.18.1",
+    "node-sass": "4.12.0",
+    "normalize.css": "^8.0.1",
+    "react": "16.0.0",
+    "react-addons-shallow-compare": "15.6.0",
+    "react-dates": "12.7.0",
+    "react-dom": "16.0.0",
+    "react-modal": "3.8.1",
+    "react-redux": "5.0.5",
+    "react-router-dom": "5.0.0",
+    "redux": "4.0.1",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.23.1",
+    "uuid": "3.3.2",
+    "validator": "8.0.0",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4"
+  }
+}
